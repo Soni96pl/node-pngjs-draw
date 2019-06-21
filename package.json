@@ -1,6 +1,6 @@
 {
   "name": "pngjs-draw-font-smoothing",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Adds basic drawing functionnalities to pngjs. Originally created by Aloïs Deniel",
   "main": "index.js",
   "scripts": {
