@@ -1,7 +1,7 @@
 {
-  "name": "pngjs-draw",
-  "version": "0.0.6",
-  "description": "Adds basic drawing functionnalities to pngjs.",
+  "name": "pngjs-draw-font-smoothing",
+  "version": "0.0.8",
+  "description": "Adds basic drawing functionnalities to pngjs. Originally created by Aloïs Deniel",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,12 +20,12 @@
     "rectangle",
     "png"
   ],
-  "author": "Aloïs Deniel",
+  "author": "Aloïs Deniel and Sonia Chronowska",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aloisdeniel/node-pngjs-draw/issues"
+    "url": "https://github.com/Soni96pl/node-pngjs-draw/issues"
   },
-  "homepage": "https://github.com/aloisdeniel/node-pngjs-draw",
+  "homepage": "https://github.com/Soni96pl/node-pngjs-draw",
   "dependencies": {
     "pngjs": "^0.4.0"
   }
