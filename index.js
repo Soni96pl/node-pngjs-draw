@@ -65,19 +65,6 @@ module.exports = function(PNG) {
   }
 
   /*
-   * Exports an image with all characters of the font as a javascript module file.
-   *
-   * @param {Object} options The options used to load the font.
-   * @param {string} outFile The path to the output javascript file.
-   * @param {function(err)} callback The callback of the export operation.
-   */
-  PNG.prototype.exportToFont = function (options, outFile, callback) {
-    var fs = require('fs');
-    var font = loadFont(this,options);
-    fs.writeFile(outFile, "module.exports = " + JSON.stringify(font) + "; module.exports.getChar = function(c) { if(module.exports.toUpper) c = c.toUpperCase(); var char = module.exports.chars[c]; if(!char) char = module.exports.chars['?']; return char;}", callback);
-  }
-
-  /*
    * Draws a filled rectangle with the given color.
    *
    * @param {int} x0 The top left x coordinate of the rectangle
