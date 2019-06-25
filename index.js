@@ -1,4 +1,3 @@
-var fs = require('fs');
 var defaultFont = require('./fonts/default.js')
 
 module.exports = function(PNG) {
@@ -73,6 +72,7 @@ module.exports = function(PNG) {
    * @param {function(err)} callback The callback of the export operation.
    */
   PNG.prototype.exportToFont = function (options, outFile, callback) {
+    var fs = require('fs');
     var font = loadFont(this,options);
     fs.writeFile(outFile, "module.exports = " + JSON.stringify(font) + "; module.exports.getChar = function(c) { if(module.exports.toUpper) c = c.toUpperCase(); var char = module.exports.chars[c]; if(!char) char = module.exports.chars['?']; return char;}", callback);
   }
