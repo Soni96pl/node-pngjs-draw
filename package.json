@@ -1,5 +1,5 @@
 {
-  "name": "pngjs-draw-font-smoothing",
+  "name": "pngjs-draw-react-native",
   "version": "0.1.4",
   "description": "Adds basic drawing functionnalities to pngjs. Originally created by Aloïs Deniel",
   "main": "index.js",
