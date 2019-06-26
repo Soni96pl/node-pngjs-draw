@@ -25,8 +25,5 @@
   "bugs": {
     "url": "https://github.com/Soni96pl/node-pngjs-draw/issues"
   },
-  "homepage": "https://github.com/Soni96pl/node-pngjs-draw",
-  "dependencies": {
-    "pngjs": "^0.4.0"
-  }
+  "homepage": "https://github.com/Soni96pl/node-pngjs-draw"
 }
