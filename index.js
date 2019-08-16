@@ -204,7 +204,7 @@ function blend(background, color) {
     Math.round(color[0] * srcAlpha + background[0] * (1 - srcAlpha)),
     Math.round(color[1] * srcAlpha + background[1] * (1 - srcAlpha)),
     Math.round(color[2] * srcAlpha + background[2] * (1 - srcAlpha)),
-    background[3]
+    255,
   ];
 }
 
