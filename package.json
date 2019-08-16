@@ -1,6 +1,6 @@
 {
   "name": "pngjs-draw-react-native",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Adds basic drawing functionnalities to pngjs. Originally created by Aloïs Deniel",
   "main": "index.js",
   "scripts": {
